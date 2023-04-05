@@ -62,7 +62,7 @@ def evaluate():
         case "%":
             opr = str(calc.mod(first.getNumber(),second.getNumber()))
         case "!":
-            opr = str(calc.fac(first.getNumber))
+            opr = str(calc.fac(first.getNumber()))
         case _:
             opr = "Error"
     result.delete(1.0, "end")
